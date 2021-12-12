@@ -710,7 +710,7 @@ $(function() {
 		}
 	});
 
-	new PuzzleView({model: new PuzzleModel()});
+	window.puzzleView = new PuzzleView({model: new PuzzleModel()});
 
 });
 
